@@ -76,7 +76,7 @@ async def dailyLoop(ctx):
     #dose a query every 24 hours
     while (bot.repeat):
         await ref(ctx)
-        await asyncio.sleep(10)
+        await asyncio.sleep(86400)
 
 async def sendMsg(message: Message, user_message: str) -> None:
 
